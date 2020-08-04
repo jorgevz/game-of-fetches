@@ -1,15 +1,13 @@
-import axios from 'axios';
+import React from 'react';
 import './App.css';
+import Date from './Component/Date';
 
-
-componentDidMount(); {
-  axios.get('https://dog.ceo/api/breeds/image/random')
-  .then(response => {
-    console.log(response.data);
-  })
-  .catch(error => {
-    console.log(error);
-  });
+function App() {
+  return (
+    <div className="App">
+    <Date/>
+    </div>
+  );
 }
 
 export default App;
