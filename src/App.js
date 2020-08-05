@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import Date from './Component/Date';
+import Margarytyrell from './Component/Margarytyrell'
 
 function App() {
   return (
     <div className="App">
-    <Date/>
+      <Margarytyrell/>
     </div>
   );
 }
-
 export default App;
+
 
 
 
