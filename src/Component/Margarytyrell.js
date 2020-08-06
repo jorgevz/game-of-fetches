@@ -24,7 +24,7 @@ export default class Margarytyrell extends Component {
     return (
       <div>
         <h2> Where was Margaery Tyrell born?</h2>
-        <h4>Margaery Tyrell was born {this.state.data}.</h4>
+        <h4>{this.state.data}.</h4>
       </div>
     )
   }
